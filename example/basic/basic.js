@@ -87,9 +87,9 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
     S3.config = {
         key: '<TestKEY>',
-        secret: '<TestKEY>',
-        bucket: 'muze-qa',
-        region:'us-west-2'
+        secret: '<TestSecret>',
+        bucket: '<testBucket>',
+        region:'region'
     };
 }
 
